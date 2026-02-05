@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trident Survey</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>Trident Survey Form</h1>
+        <form id="form">
+            <div>
+                <label for="name" id="label-name">Name</label>
+                <input id="name" type="text" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="email" id="label-email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email">
+            </div>
+            <div>
+                <label for="age" id="label-age">Age</label>
+                <input id="age" type="text" placeholder="Enter your age">
+            </div>
+            <div>
+                <label for="role" id="label-role">Which option best describes you ?</label>
+                <select id="role" name="role">
+                    <option value="student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Progessional</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label>Would you recommend Trident College to your friends ?</label>
+                <label for="recommend-1">
+                    <input id="recommend-1" name="recommend" type="radio">Yes
+                </label>
+                <label for="recommend-2">
+                    <input id="recommend-2" name="recommend" type="radio">No
+                </label>
+                <label for="recommend-3">
+                    <input id="recommend-3" name="recommend" type="radio">Maybe
+                </label>
+            </div>
+            <div>
+                <label>Languages and Frameworks known
+                    <small>(Check all that apply)</small>
+                </label>
+                <label for="inp-1">
+                    <input id="inp-1" name="inp" type="checkbox">C
+                </label>
+                <label for="inp-2">
+                    <input id="inp-2" name="inp" type="checkbox">C++
+                </label>
+                <label for="inp-3">
+                    <input id="inp-3" name="inp" type="checkbox">C#
+                </label>
+                <label for="inp-4">
+                    <input id="inp-4" name="inp" type="checkbox">Java
+                </label>
+                <label for="inp-5">
+                    <input id="inp-5" name="inp" type="checkbox">Python
+                </label>
+                <label for="inp-6">
+                    <input id="inp-6" name="inp" type="checkbox">Javascript
+                </label>
+                <label for="inp-7">
+                    <input id="inp-7" name="inp" type="checkbox">React
+                </label>
+                <label for="inp-8">
+                    <input id="inp-8" name="inp" type="checkbox">Angular
+                </label>
+                <label for="inp-9">
+                    <input id="inp-9" name="inp" type="checkbox">Django
+                </label>
+                <label for="inp-10">
+                    <input id="inp-10" name="inp" type="checkbox">Spring
+                </label>
+            </div>
+            <div>
+                <label for="comment" id="label-comment">Any comments or suggestions</label>
+                <textarea id="comment" name="comment" placeholder="Comment here"></textarea>
+            </div>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </body>
+</html>
