@@ -36,3 +36,19 @@ form {
     border-radius: 5px;
 }
 
+.form-content input[type="radio"],
+.form-content input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #05c46b;
+    font-size: 21px;
+    padding: 10px;
+    text-align: center;
+    font-family: inherit;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
